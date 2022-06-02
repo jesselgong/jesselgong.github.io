@@ -1,36 +1,311 @@
-<title>Assignment 4</title>
-  
-<script src="https://cdn.jsdelivr.net/npm/vega@5.16.1"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-lite@4.16.2"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-CR6X6RD05B"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
 
-<p>Assignment 4 - Deploying a GitHub Page.</p>
-<p>Year Constructed vs Year Acquired</p>
+		gtag('config', 'G-CR6X6RD05B');
+		</script>
 
-<div id="viz">
-</div>
- 
+		<title>Yu-Jui(Edward) Sung</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-<script>
-    var vlSpec = {
-  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "data": {
-    "url": "https://uiuc-ischool-dataviz.github.io/spring2019online/week02/building_inventory.csv",
-    "format": {"type": "csv"}
-  },
-  "mark": {"type": "circle", "clip": true},
-  "encoding": {
-    "x": {
-      "field": "Year Constructed",
-      "type": "quantitative",
-      "scale": {"domain": [1750, 2040]}
-    },
-    "y": {
-      "field": "Year Acquired",
-      "type": "quantitative",
-      "scale": {"domain": [1750, 2040]}
-    }
-  }
-};
-    vegaEmbed('#viz', vlSpec);
-</script>
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+				<div id="logo"> 
+					<img src="images/logo.png" width = "80" height = "80"> 
+				</div> 
+				<!-- Intro -->
+					<div id="intro">
+						<h1>Yu-Jui(Edward) Sung</h1>
+						<p>I am a <u><b>data enthusiast</b></u>, who sat in a restroom once to count which toilet was frequently used.</p>
+						<p>Also, a <u><b>content creator</b></u> who owns TikTok, YouTube, Instagram, Medium, and Podcasts.</p>
+						
+						
+						<a href="./documents/YuJuiSung_Resume.pdf" download="YuJuiSung_Resume" class="button icon solid fa-download">Resume Download</a>
+						<br>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Edward Sung</a>
+					</header>
+					
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">Edward Sung</a></li>
+							<li><a href="generic.html">Work Experience</a></li>
+							<li><a href="elements.html">Leadership and Activities</a></li>
+							<li><a href="projects.html">Projects and Awards</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<!-- Blockquote -->
+									<h2>ABOUT  ME</h2>
+									<blockquote>I am a senior student studying Information Sciences specifically data science with a minor in 
+										Computer Science at the University of Illinois at Urbana-Champaign. Also, I am doing a
+										Data Science certificate as well as a Technology Commercialization certificate. I regard 
+										myself as a content creator which I normally post videos on TikTok and YouTube, photography 
+										on Instagram and Podcasts on Apple, Spotify, Google Podcasts. I enjoy analyzing the background 
+										stats for each of the social media. I am actively seeking jobs related to data science.
+									</blockquote>
+									<hr />
+								</header>
+								<a href="#" class="image main"><img src="images/1.JPG" alt="" /></a>
+							</article>
+
+							<!-- Post -->
+							<section class="post">
+								<header class="major">
+
+									<h1>Who am I?</h1>
+									<p>Why did I choose to study abroad?<br />
+									How did I end up pursuing what I beleive in?<br />
+									What makes me myself?</p>
+								</header>
+								<div class="image main"><img src="images/10.jpg" alt=""/></div>
+								<!-- Box -->
+								<div class="box">
+									<p>I was born and raised in Taichung, Taiwan. My parents are open-minded. They want my brother and I to do what we love and love what we do.
+										I considered myself as a CS person back in the day while I won several programming competitions in high school. Also, I won the world robotics contest in
+										grade 10. This is why I chose to study abroad to the states diving into Computer Science. Not until my application being rejected by CS department 5 times,
+										I started to think of what I truly love. Thus, I transferred from the University of Washington at Seattle to the University of Illinois at Urbana-Champaign. 
+										Information Sciences is a combination of computer science, statistics, mathematics, social science and communication. 
+	 
+										Another chapter in my life is about social media. I enjoy being a content creator on TikTok, YouTube, Instagram, Medium, Podcasts and etc. I love the feelings
+										when people like, comment, and share my posts. I remember the time one of my videos went viral, over 600k views were accumulated over a night. I was amazed 
+										by how powerful social media and the Internet could be.
+									 </p>
+								</div>
+								
+							</section>
+							<section>
+								<h1>Education</h1>
+								<style>
+									h1 {text-align: center;}
+								</style>
+								<h2><u>University</u></h2>
+								<div>
+									<img src="images/uiuc.png" alt="UIUC" width = 500 height = auto>
+									<h2>University of Illinois at Urbana-Champaign</h2>
+									<h3>Aug 2020 - Expected Graduation: May 2022</h3>
+									<h4>Bachelor's of Science in Information Sciences: Data Science Track</h4>
+									<h4>Minor: Computer Science, Certificate in Data Science</h4>
+									<h5> Major GPA: 3.96 </h5>
+
+									<br>	
+
+									<img src="images/uw.png" alt="UW" width = 500 height = auto>
+									<h2>University of Washington at Seattle</h2>
+									<h3>Sep 2018 - Jun 2020 (Transferred Out)</h3>
+									<h4>Bachelor's of Science. Intended Computer Science/Informatics</h4>
+
+									<br>	
+
+									<img src="images/nctu.png" alt="NCTU" width = 500 height = auto>
+									<h2>National Chiao Tung University</h2>
+									<h3>Sep 2018 (Leave of Absence)</h3>
+									<h4>Arete Honors Program</h4>
+								</div>
+							</section>
+							<section>
+								<h1>Skills </h1>
+									<style>
+										h1 {text-align: center;}
+										</style>
+						<div class="row">
+							<div class="column">
+								<h3>Advanced</h3>
+									<li>Data Science: R, Python</li>
+									<li>Database: SQL, MySQL</li>
+									<li>Frontend: HTML, CSS</li>
+									<li>Backend: Java</li>
+									<li>Data Visualization: Tableau, Power BI</li>
+									<li>Microsoft Office: Word, Excel, Powerpoint</li>
+							</div>
+							<div class = "column">
+								<h3>Intermediate</h3>
+
+									<li>Data Science: Google Analytics, Google Data Studio</li>
+									<li>Project Management: Jira, Trello</li>
+									<li>Backend: C#, .NET, C++</li>
+									<li>Mathematics: MATLAB</li>
+									<li>Geography: ArcGIS Online, ArcGIS Pro</li>
+							</div>
+							<div class = "column">
+								<h3>Novice</h3>
+
+									<li>Data Visualization: VegaLite, JavaScript</li>
+									<li>Database: Mongo DB</li>
+									<li>Healthcare: FHIR, HL7</li>
+							</div>
+						</div>
+						<hr>
+						<section class="posts">
+							<h1>Social Media</h1>
+							<p> I enjoy creating a variety of contents, including vlogs about my life, personal experience sharings, jokes, tours. Every once in a while, I would collect background statistics 
+								from social media to analyze my performance. For example, KPIs like average views, average likes, retention rates, audience ages, and etc. Most of the time, I export the data into 
+								csv files, cleanse the data in excel/R, then create summary table in R. My last step would export the cleaned files into Taleau to create data visualizations.
+							</p>
+							<div class = "row">
+								<div class = "column">
+									<span class="Category"><b>TikTok</b></span>
+									<h2><a href = "https://www.tiktok.com/@edwardsung63?">edwardsung63</a></h2>
+									<img src="images/11.jpg" width = "200" height = "auto" style="float: left;">
+									<p> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+										<li>Over 2k followers, with over 88k Likes. Top View video with over 480k views.</li>
+										<li>Record videos about my life, jokes, hotel tours, and traveling.</li> 
+										<li>Audience: 79.6% male, 23.1% female, distributed in Taiwan, and United States.</li>
+									</p>
+								</div>
+								<div class = "column">
+									<span class="Category"><b>Instagram</b></span>
+									<h2><a href = "https://www.instagram.com/edwardphotoholic/">edwardphotoholic</a></h2>
+									<img src="images/22.jpg" width = "200" height = "auto" style="float: left;">
+									<p> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+										<li>Over 400 followers, with an average of 40 likes per post.</li>
+										<li>Poem-like creative contents with fabulous photography.</li>
+										<li>Increase 19.1% accounts reached in the past 90 days.</li>
+									</p>
+								</div>
+								<div class = "column">
+									<span class="Category"><b>Podcasts</b></span>
+									<h2><a href = "https://podcasts.apple.com/tw/podcast/gmt-8/id1570770963">GMT+8</a></h2>
+									<img src="images/33.jpg" width = "200" height = "auto" style="float: left;">
+									<p> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+										<li>Hit top 100 podcasters on Apple Podcasts: Leisure in the first month.</li>
+										<li>Over 1000 downloads according to our hosting websites.</li>
+										<li>Instagram account with over 100 followers.</li>
+									</p>
+								</div>
+								<div class = "column">
+									<span class="Category"><b>YouTube</b></span>
+									<h2><a href = "https://www.youtube.com/channel/UCJSoCRFvC3xD-Avd10nlpDg">Edward Sung</a></h2>
+									<img src="images/44.jpg" width = "200" height = "auto" style="float: left;">
+									<p> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+										<li>Over 250 subsribers. Top video of 4.1k views.</li>
+										<li>Videos are mainly about traveling vlogs. Some of them are experience sharing.</li>
+										<li>An average of 500 unique viewers every month, mainly from YouTube search.</li>
+									</p>
+								</div>
+								<div class = "column">
+									<span class="Category"><b>Medium</b></span>
+									<h2><a href = "https://edwardsung63.medium.com">EdwardSung</a></h2>
+									<img src="images/55.jpg" width = "200" height = "auto" style="float: left;">
+									<p> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+										<li>Newly created social media for my articles and photography.</li>
+										<li>Contents are similar to Instagram photography account.</li>
+										<li>More data to come.</li>
+									</p>
+								</div>
+								<div class = "column">
+									<span class="Category"><b>Dcard</b></span>
+									<h2>太陽餅趁熱吃</h2>
+									<img src="images/66.jpg" width = "200" height = "auto" style="float: left;">
+									<p> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+										<li>Honored being listed on the Dcard creator's list.</li>
+										<li>Top likes among posts on the For You Page.</li>
+										<li>Listed on the Trending page over 10 times.</li>
+									</p>
+								</div>
+							</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="3"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+						</section>
+						<section class="split contact">
+							<section class="alt">
+								<h3>Address</h3>
+								<p>310 E. Springfield Ave.,<br />
+									Apt. 1205 <br>
+								Champaign, IL 61820</p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p><a href="#">(206) 245-6933</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">edwardsung63@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="https://www.tiktok.com/@edwardsung63?" class="icon brands alt fa-tiktok"><span class="label">TikTok</span></a></li>
+									<li><a href="https://www.facebook.com/profile.php?id=100004248663361" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="https://www.instagram.com/edwardsung63/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="https://github.com/edwardsungYuJui" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
