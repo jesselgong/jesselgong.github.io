@@ -1,0 +1,36 @@
+<title>Assignment 4</title>
+  
+<script src="https://cdn.jsdelivr.net/npm/vega@5.16.1"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@4.16.2"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+
+<p>Assignment 4 - Deploying a GitHub Page.</p>
+<p>Year Constructed vs Year Acquired</p>
+
+<div id="viz">
+</div>
+ 
+
+<script>
+    var vlSpec = {
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "data": {
+    "url": "https://uiuc-ischool-dataviz.github.io/spring2019online/week02/building_inventory.csv",
+    "format": {"type": "csv"}
+  },
+  "mark": {"type": "circle", "clip": true},
+  "encoding": {
+    "x": {
+      "field": "Year Constructed",
+      "type": "quantitative",
+      "scale": {"domain": [1750, 2040]}
+    },
+    "y": {
+      "field": "Year Acquired",
+      "type": "quantitative",
+      "scale": {"domain": [1750, 2040]}
+    }
+  }
+};
+    vegaEmbed('#viz', vlSpec);
+</script>
